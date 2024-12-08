@@ -5,6 +5,7 @@ import 'swiper/css/effect-creative';
 import { EffectCreative } from 'swiper/modules';
 import SwiperImported from './Swiper';
 import {Box} from '@mui/material'
+import LoadingPage from '../../utils/LoadingPage';
 const Header = () => {
   const [loader,setLoader]= useState(true)
 
@@ -13,9 +14,9 @@ const Header = () => {
   }, 4300);
   return (
    <>
-  {/* { loader && 
-     <Box sx={{minWidth:'100vw', height:'100vh',bgcolor:'black',position:'absolute',zIndex:101,top:0,left:0}}>sdf</Box>
-} */}
+  { loader && 
+     <LoadingPage />
+}
    <Box sx={{maxWidth:'100vw', height:'80vh'}}>
 
   <SwiperImported />
