@@ -19,7 +19,7 @@ import {
 import { EffectCreative } from "swiper/modules";
 import SplitTextJS from "split-text-js"; // Use your custom library
 import { Box, Button, colors } from "@mui/material";
-import BouncyButton from "../../utils/bouncyButton";
+import BouncyButton from "../../utils/bouncyButton.jsx";
 import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';

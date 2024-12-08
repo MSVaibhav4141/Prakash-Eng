@@ -3,7 +3,7 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { gsap } from "gsap";
 import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
-import BouncyButton from "../../utils/bouncyButton";
+import BouncyButton from "../../utils/bouncyButton.jsx";
 import Footer from '../Footer/Footer.jsx'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);

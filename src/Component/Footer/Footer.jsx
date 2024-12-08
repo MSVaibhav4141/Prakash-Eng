@@ -1,6 +1,6 @@
 import { Box , Typography, List, ListItem, ListItemText} from '@mui/material'
 import React from 'react'
-import BouncyButton from '../../utils/bouncyButton'
+import BouncyButton from '../../utils/bouncyButton.jsx'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
